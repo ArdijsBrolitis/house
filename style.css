@@ -42,10 +42,9 @@
     border-style: solid;
     height: 100px;
     width: 55px;
-    left: 54vw;
-    top: -2.2vh;
-    z-index: 2;
-    
+    left: 52.8vw;
+    top: -5.5vh;
+    z-index: 11;    
 }
 
 .handle {
@@ -60,12 +59,11 @@
 .window {
     position: relative;
     background-color: #dfb32c;
+    border-style: solid;
     height: 140px;
     width: 140px;
     left: 41vw;
-    top: -23vh;
-    border-style: solid;
-
+    top: -26vh;    
 }
 
 .ybar {
@@ -91,4 +89,50 @@
     margin-top: -72px;
     margin-left: -2.1px;
     z-index: 5;
+}
+
+.steps {
+    position: relative;
+    border-bottom: 35px solid #555;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    width: 60px;
+    left: 51vw;
+    top: -21vh;
+    z-index: 6;   
+}
+.stepone {
+    position: relative;
+    background-color: black;
+    border-style: solid;
+    border-width: 0px;
+    width: 113px;
+    height: 1px;
+    left: 51.4vw;
+    top: -22vh;
+    z-index: 10;   
+} 
+
+.steptwo {
+    position: relative;
+    background-color: black;
+    border-style: solid;
+    border-width: 0px;
+    width: 96px;
+    height: 1px;
+    left: 51.9vw;
+    top: -23vh;
+    z-index: 10;   
+}
+
+.stepthree {
+    position: relative;
+    background-color: black;
+    border-style: solid;
+    border-width: 0px;
+    width: 72px;
+    height: 1px;
+    left: 52.5vw;
+    top: -24.3vh;
+    z-index: 10;  
 }
