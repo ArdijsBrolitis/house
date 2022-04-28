@@ -4,19 +4,32 @@
     background-color: brown;
     width: 400px;
     height: 300px;
-    top: 350px;
-    left: 40vw;
+    top: 36vh;
+    left: 39.2vw;
+    border-radius: 5%;
+    z-index: 0;
 }
 
 .roof {
     position: relative;
     border-bottom: 180px solid #555;
-    border-left: 170px solid transparent;
-    border-right: 170px solid transparent;
+    border-left: 180px solid transparent;
+    border-right: 180px solid transparent;
     height: 0;
     width: 125px;
-    left: 735px;
-    top: -110px;
+    left: 37vw;
+    top: -10vh;
     border-radius: 20%;
-   
+    z-index: 1;
+}
+
+.chimney {
+    position: relative;
+    background-color: brown;
+    border-radius: 10%;
+    height: 70px;
+    width: 55px;
+    top: -32.5vh;
+    left: 51.5vw;
+    z-index: 3;
 }
