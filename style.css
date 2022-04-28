@@ -31,5 +31,24 @@
     width: 55px;
     top: -32.5vh;
     left: 51.5vw;
-    z-index: 3;
+    z-index: 2;
+}
+
+.door {
+    position: relative;
+    background-color: #b26859;
+    height: 100px;
+    width: 55px;
+    left: 54vw;
+    top: -1vh;
+    z-index: 2;
+}
+
+.handle {
+    position: relative;
+    margin-left: 3px;
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    top: 5vh;
 }
